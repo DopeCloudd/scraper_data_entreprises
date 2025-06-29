@@ -27,7 +27,7 @@ export async function sendMail(xlsxPath: string): Promise<void> {
 
   const mailOptions = {
     from: '"LOGPRO Scraper" <scraper.logpro@gmail.com>',
-    to: ["welance.mail@gmail.com"],
+    to: ["welance.mail@gmail.com", "act2011@hotmail.fr"],
     subject: `Recherche d'informations sur les entreprises transmises - ${formattedDate}`,
     html: htmlContent,
     attachments: [attachment],
